@@ -47,7 +47,7 @@ export default function Home() {
   href="/resume.pdf"
   download="resume.pdf"
 >
-  Resume Download
+  Resume
 </a>
 
               </li>
