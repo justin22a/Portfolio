@@ -3,7 +3,8 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
   AiFillInstagram,
-  AiFillGoogleCircle
+  AiFillGoogleCircle,
+  AiFillGithub
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -47,7 +48,7 @@ export default function Home() {
   href="/resume.pdf"
   download="resume.pdf"
 >
-  Resume
+  Resume Download
 </a>
 
               </li>
@@ -64,8 +65,8 @@ export default function Home() {
               Student at the University of Florida pursuing a degree in computer science in the Weirthem College of Engineering.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://www.instagram.com/justin.adam22/#">
-              <AiFillInstagram />
+              <a href="https://github.com/justin22a">
+              <AiFillGithub />
            </a>
            <a href="https://www.linkedin.com/in/justin-adam-a566a11ab">
              <AiFillLinkedin />
@@ -103,6 +104,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Full time work experience</p>
               <p className="text-gray-800 py-1">Get an MBA</p>
               <p className="text-gray-800 py-1">Polish Soft/Technical Skills</p>
+              <p className="text-gray-800 py-1">Make awesome friends/relationships</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
