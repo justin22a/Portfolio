@@ -45,8 +45,8 @@ export default function Home() {
               <li>
               <a
   className="bg-gradient-to-r from-blue-500 to-orange-500 text-white px-4 py-2 border-none rounded-md ml-8"
-  href="/JAResume2023.pdf.pdf"
-  download="JAResume2023.pdf.pdf"
+  href="/JAResume2023.pdf"
+  download="JAResume2023.pdf"
 >
   Resume Download
 </a>
