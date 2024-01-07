@@ -42,7 +42,7 @@ export default function Home() {
         className=" cursor-pointer text-2xl"
       />
     </li>
-    {/* 
+    {/
     <li>
       <a
         className="bg-gradient-to-r from-blue-500 to-orange-500 text-white px-4 py-2 border-none rounded-md ml-8"
@@ -52,7 +52,7 @@ export default function Home() {
         Resume Download
       </a>
     </li>
-    */}
+    /}
   </ul>
 </nav>
           <div className="text-center p-10 py-10">
