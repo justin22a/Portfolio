@@ -47,7 +47,7 @@ export default function Home() {
   className="bg-gradient-to-r from-blue-500 to-orange-500 text-white px-4 py-2 border-none rounded-md ml-8"
   href="/resume.pdf"
   download="resume.pdf"
-  {{ position: 'absolute', left: '-9999px' }}
+  style={{ position: 'absolute', left: '-9999px' }}
 >
     Resume Download
 </a>
